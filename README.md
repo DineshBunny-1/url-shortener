@@ -67,7 +67,7 @@ Edit
 
 ### **1️⃣ Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/url-shortener.git
+git clone https://github.com/DineshBunny-1/url-shortener.git
 cd url-shortener
 2️⃣ Backend Setup
 bash
@@ -132,7 +132,7 @@ Visit count for each URL
 Click here to watch demo
 
 🌐 Live Demo
-🌐 **Live Demo** → [https://url-shortener-1-nz0m.onrender.com](https://url-shortener-1-nz0m.onrender.com)
+https://url-shortener-1-nz0m.onrender.com
 
 📜 License
 This project is licensed under the MIT License.
