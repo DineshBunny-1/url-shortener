@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Copy custom styles from both HTML files */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Pulse Glow Animation */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.4), 0 0 30px rgba(139, 92, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(59, 130, 246, 0.7), 0 0 45px rgba(139, 92, 246, 0.5);
+  }
+}
+
+.btn-shorten, .btn-3d {
+  animation: pulse-glow 4s infinite ease-in-out;
+  transition: all 0.3s ease;
+  transform-style: preserve-3d;
+  transform: translateZ(20px);
+}
+
+.btn-shorten:hover, .btn-3d:hover {
+  transform: translateZ(25px) translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.input-floating {
+  transition: all 0.3s ease;
+  transform-style: preserve-3d;
+  transform: translateZ(10px);
+}
+
+.input-floating:focus-within {
+  box-shadow: 0 0 25px rgba(0, 255, 247, 0.5);
+  transform: translateZ(15px) scale(1.01);
+}
+
+.glass-panel {
+  background: rgba(10, 31, 68, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.result-card {
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform-style: preserve-3d;
+  transform: translateY(50px) rotateX(-20deg) scale(0.95);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.result-card.show {
+  transform: translateY(0) rotateX(0deg) scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.result-card:hover {
+  transform: translateY(-5px) scale(1.02);
+}
