@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Admin() {
-  const API_BASE_URL = 'http://localhost:5000'
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000'
 
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
