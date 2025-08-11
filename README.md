@@ -83,7 +83,8 @@ Edit
 MONGO_URI=your_mongodb_connection_string
 BASE_URL=http://localhost:5000
 PORT=5000
-ADMIN_API_TOKEN=your_secret_token_here
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=Dinesh123
 Start backend server:
 
 bash
