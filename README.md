@@ -5,6 +5,11 @@ It allows users to shorten long URLs, share them easily, and track their usage.
 
 ---
 
+🌐 Live Demo
+https://url-shortener-1-nz0m.onrender.com
+
+---
+
 ## 🚀 Features
 
 ### **Frontend (React)**
@@ -131,8 +136,7 @@ Visit count for each URL
 🎥 Demo Video
 Click here to watch demo
 
-🌐 Live Demo
-https://url-shortener-1-nz0m.onrender.com
+
 
 📜 License
 This project is licensed under the MIT License.
