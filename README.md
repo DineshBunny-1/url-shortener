@@ -139,5 +139,5 @@ This project is licensed under the MIT License.
 
 👨‍💻 Author
 B Sai Dinesh
-📧 Email: your.email@example.com
-📌 GitHub: @yourusername
+📧 Email: dineshboga15@gmail.com
+📌 GitHub: @DineshBunny-1
