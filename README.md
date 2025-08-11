@@ -133,10 +133,6 @@ All shortened URLs
 
 Visit count for each URL
 
-🎥 Demo Video
-Click here to watch demo
-
-
 
 📜 License
 This project is licensed under the MIT License.
