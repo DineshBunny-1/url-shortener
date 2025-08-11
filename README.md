@@ -131,7 +131,7 @@ Visit count for each URL
 Click here to watch demo
 
 🌐 Live Demo
-[link text](https://url-shortener-1-nz0m.onrender.com)
+🌐 **Live Demo** → [https://url-shortener-1-nz0m.onrender.com](https://url-shortener-1-nz0m.onrender.com)
 
 📜 License
 This project is licensed under the MIT License.
