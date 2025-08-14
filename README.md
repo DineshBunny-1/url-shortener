@@ -6,7 +6,7 @@ It allows users to shorten long URLs, share them easily, and track their usage.
 ---
 
 🌐 Live Demo
-https://url-shortener-1-nz0m.onrender.com
+[https://url-shortener-1-nz0m.onrender.com](https://url-shortener-1-nz0m.onrender.com/)
 
 ---
 
